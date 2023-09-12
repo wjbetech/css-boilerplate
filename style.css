@@ -1,0 +1,32 @@
+:root {
+
+    /* base colors */
+    --text-light: #f8fcfb;
+    --text-dark: #233142;
+
+    --grey--light: #E0E0E0;
+    --grey-medium: #A8A8A8;
+    --grey-dark: #585858;
+    --grey-v-dark: #282828;
+
+
+    /* accent colors */
+    --blue-light: #6699CC;
+    --blue-dark: #5072A7;
+    --red-light: #fd5c63;
+    --red-dark: #BA0021;
+    --green-light: #ACE1AF;
+    --green-dark: #228B22;
+    
+    /* box-shadow */
+    --shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
